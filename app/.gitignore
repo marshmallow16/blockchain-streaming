@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Docker / env
+*.env
+.env
+.env.*
+*.local
+
+# Runtime volumes/data
+clickhouse_data/
+redpanda_data/
+grafana_data/
+data/
+volumes/
+
+# Logs and temp
+*.log
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+
+# Node (if any)
+node_modules/
